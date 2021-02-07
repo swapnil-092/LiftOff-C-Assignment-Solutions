@@ -3,15 +3,43 @@
 int main()
 {
     char a;
-    printf("Enter a/an alphabet: \n");
+    printf("Enter an alphabet: \n");
     scanf("%c",&a);
-    if(a==97 || a==101 || a==105 || a==111 || a==117 || 
-       a==65 || a==69  || a==73  || a==79  || a==85)
-       {
-           printf("%c is a vowel.", a);
-       }
-    else 
-      printf("%c is a consonant.", a);
+    switch(a)
+    {
+        case 'a': 
+            printf("Vowel");
+            break;
+        case 'A': 
+            printf("Vowel");
+            break;
+        case 'e': 
+            printf("Vowel");
+            break;
+        case 'E': 
+            printf("Vowel");
+            break;
+        case 'i': 
+            printf("Vowel");
+            break;
+        case 'I': 
+            printf("Vowel");
+            break;
+        case 'o': 
+            printf("Vowel");
+            break;
+        case 'O': 
+            printf("Vowel");
+            break;
+        case 'u': 
+            printf("Vowel");
+            break;
+        case 'U': 
+            printf("Vowel");
+            break;
+        default: 
+            printf("Consonant");
+    }
 
     return 0;
 }
